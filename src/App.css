@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  background-color: rgb(32, 56, 87);
+}
+
+.backdrop {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 1.5rem;
+}
+
+.display-sec {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.display-sec > input {
+  padding: 10px 12px;
+  border: none;
+  border-radius: 8px 0px 0px 8px;
+  width: 90%;
+  outline: none;
+}
+
+.display-sec > button {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 0px 8px 8px 0px;
+  background-color: rgb(0, 115, 247);
+  color: white;
+  cursor: pointer;
+}
+
+.filters-sec {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.8rem;
+}
+
+.filters-sec > div {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+}
