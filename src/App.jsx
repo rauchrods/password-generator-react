@@ -19,8 +19,8 @@ function App() {
       chars += "!#$%&'()*+,-./@";
     }
 
-    for (let i = 1; i <= length; i++) {
-      pass += chars[Math.floor(Math.random() * chars.length + 1)];
+    for (let i = 0; i < length; i++) {
+      pass += chars[Math.floor(Math.random() * chars.length)];
     }
 
     setPassword(pass);
